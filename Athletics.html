@@ -1,202 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sports Categories - Athletics</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SUSL Sports Management System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <!-- Header -->
-    <header class="bg-primary text-white py-4">
-        <div class="container">
-            <h1 class="display-4">Cricket</h1>
-            <p class="lead">Explore the world of cricket, from modern teams and equipment.</p>
-        </div>
-    </header>
+<body class="bg-gray-50 text-gray-800 font-sans scroll-smooth">
 
-    <!-- Main Content -->
-    <main class="container my-5">
-        <div class="row">
-            <div class="col-12">
-                <!-- Coach Section -->
-                <section id="coach" class="mb-5">
-                    <div class="card">
-                        <div class="card-header bg-secondary text-white">
-                            <h2 class="h4 mb-0">Coach</h2>
-                        </div>
-                        <div class="card-body">
-                            <p>DGC Dhilshan</p>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Team Members Section -->
-                <section id="team-members" class="mb-5">
-                    <div class="card">
-                        <div class="card-header bg-secondary text-white">
-                            <h2 class="h4 mb-0">Team Members</h2>
-                        </div>
-                        <div class="card-body">
-                            <p>Cricket teams typically consist of 11 players, including batsmen, bowlers, all-rounders, wicket-keepers, and specialists. Notable players include:</p>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><strong>Batsmen:</strong></li>
-                                <li class="list-group-item"><strong>Bowlers:</strong></li>
-                                <li class="list-group-item"><strong>All-rounders:</strong></li>
-                                <li class="list-group-item"><strong>Wicket-keepers:</strong></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Achievements Section -->
-                <section id="achievements" class="mb-5">
-    <div class="card shadow-sm">
-        <div class="card-header bg-secondary text-white">
-            <h2 class="h4 mb-0">Achievements</h2>
-        </div>
-        <div class="card-body">
-            <p class="lead">Cricket has seen numerous milestones:</p>
-            
-            <!-- Individual Records -->
-            <div class="achievement-item mb-5">
-                <h5 class="text-primary mb-3 border-bottom pb-2">
-                    <i class="bi bi-star-fill me-2"></i>Individual Records
-                </h5>
-                <div class="row g-4">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="card h-100 shadow-sm">
-                            <img src="images/sachin-tendulkar.jpg" class="card-img-top" alt="Sachin Tendulkar" style="height: 250px; object-fit: cover;">
-                            <div class="card-body">
-                                <h6 class="card-title fw-bold">Sachin Tendulkar</h6>
-                                <p class="card-text text-muted">Highest ODI Runs</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <span class="badge bg-success fs-6">18,426 Runs</span>
-                                    <small class="text-muted">ODI Legend</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="card h-100 shadow-sm">
-                            <img src="images/muralitharan.jpg" class="card-img-top" alt="Muttiah Muralitharan" style="height: 250px; object-fit: cover;">
-                            <div class="card-body">
-                                <h6 class="card-title fw-bold">Muttiah Muralitharan</h6>
-                                <p class="card-text text-muted">Most Test Wickets</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <span class="badge bg-info fs-6">800 Wickets</span>
-                                    <small class="text-muted">Test Legend</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Team Records -->
-            <div class="achievement-item">
-                <h5 class="text-primary mb-3 border-bottom pb-2">
-                    <i class="bi bi-flag-fill me-2"></i>Recent Team Records
-                </h5>
-                <div class="row g-4">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="card h-100 shadow-sm">
-                            <img src="images/england-2019.jpg" class="card-img-top" alt="England 2019 World Cup" style="height: 250px; object-fit: cover;">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between align-items-start mb-2">
-                                    <h6 class="card-title fw-bold mb-0">England 2019</h6>
-                                    <span class="badge bg-primary">2019</span>
-                                </div>
-                                <p class="card-text text-muted">First-ever ODI World Cup win in dramatic super over finish</p>
-                                <div class="mt-3">
-                                    <span class="badge bg-light text-dark border">ODI World Cup</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="card h-100 shadow-sm">
-                            <img src="images/india-t20-2021.jpg" class="card-img-top" alt="India T20 World Cup" style="height: 250px; object-fit: cover;">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between align-items-start mb-2">
-                                    <h6 class="card-title fw-bold mb-0">India T20 2021</h6>
-                                    <span class="badge bg-success">2021</span>
-                                </div>
-                                <p class="card-text text-muted">Strong performance showcasing dominance in T20 format</p>
-                                <div class="mt-3">
-                                    <span class="badge bg-light text-dark border">T20 World Cup</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <!-- Navbar -->
+  <header class="bg-blue-600 text-white py-4 shadow fixed w-full top-0 z-10">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">SUSL Sports Management System</h1>
+      <nav class="space-x-4">
+        <a href="#introduction" class="hover:underline">Introduction</a>
+        <a href="#achievements" class="hover:underline">Achievements</a>
+        <a href="#coaches" class="hover:underline">Coaches/Captains</a>
+        <a href="#registration" class="hover:underline">Registration</a>
+      </nav>
     </div>
-</section>
+  </header>
 
+   <!-- Hero Section -->
+<section 
+  id="introduction"
+  class="relative text-center py-24 h-screen mt-16 bg-cover bg-center bg-no-repeat text-white"
+  style="background-image: url('images/athleticteam.jpg');"
+>
+  <!-- Gradient + Overlay -->
+  <div class="absolute inset-0 bg-gradient-to-b from-blue-800/10 via-indigo-800/30 to-black/70"></div>
 
-                <!-- Sport Items Section -->
-                <section id="sport-items" class="mb-5">
-                    <div class="card">
-                        <div class="card-header bg-secondary text-white">
-                            <h2 class="h4 mb-0">Sport Items</h2>
-                        </div>
-                        <div class="card-body">
-                            <p>Essential cricket equipment includes:</p>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><strong>Bat:</strong> Wooden bat for hitting the ball, typically made of willow.</li>
-                                <li class="list-group-item"><strong>Ball:</strong> Hard cork ball covered in leather, used in Test and ODI cricket.</li>
-                                <li class="list-group-item"><strong>Protective Gear:</strong> Helmets, pads, gloves, and thigh guards for safety.</li>
-                                <li class="list-group-item"><strong>Other Items:</strong> Wickets (three stumps), bails, and fielding gloves.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+  <!-- Content -->
+  <div class="relative z-10 max-w-3xl mx-auto px-4">
+    <h2 class="text-4xl font-bold mb-4 text-gray-800">🏃‍♀️ Sabaragamuwa University Athletics Team</h2>
 
-                <!-- History Section -->
-                <section id="history" class="mb-5">
-                    <div class="card">
-                        <div class="card-header bg-secondary text-white">
-                            <h2 class="h4 mb-0">History</h2>
-                        </div>
-                        <div class="card-body">
-                            <p>Cricket originated in England in the 16th century, evolving from folk games. Key milestones:</p>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">1744: First recorded rules in England.</li>
-                                <li class="list-group-item">1877: First Test match between England and Australia.</li>
-                                <li class="list-group-item">1971: First ODI World Cup.</li>
-                                <li class="list-group-item">2003: Introduction of Twenty20 (T20) format, revolutionizing the sport.</li>
-                            </ul>
-                            <p>Today, cricket is played in over 120 countries, with the ICC governing international play.</p>
-                        </div>
-                    </div>
-                </section>
+    <p class="max-w-2xl mx-auto text-lg leading-relaxed">
+      The Sabaragamuwa University Athletic Team is one of the most dynamic and dedicated university sports teams in Sri Lanka.
+      The team proudly represents the university in inter-university athletic meets and other major national competitions. <br><br>
+      It is recognized for its determination, discipline, and team spirit. Athletes train regularly to enhance their speed, strength, and endurance across various track and field events. Over the years, the team has achieved remarkable success and continues to bring honor to the university through their exceptional performances and unwavering commitment to excellence.
+    </p>
+  <div class="relative inline-block group">
+  <!-- Button -->
+  <button
+    class="mt-8 bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-blue-50 transition-all duration-300 shadow-md hover:scale-105 transition-transform duration-300"
+  >
+    Follow us on Facebook
+  </button>
 
-                <!-- Registration Section -->
-                <section id="registration" class="mb-5">
-                    <div class="card">
-                        <div class="card-header bg-secondary text-white">
-                            <h2 class="h4 mb-0">Registration</h2>
-                        </div>
-                        <div class="card-body">
-                            <p>To get involved in cricket:</p>
-                            
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-    </main>
+  <!-- Popup (appears on hover) -->
+  <div
+    class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:block bg-gradient-to-r from-blue-300 to-indigo-500 text-white text-sm px-4 py-2 rounded-xl shadow-lg whitespace-nowrap"
+  >
+    📣 Visit our official Facebook page!
+    <div class="absolute left-1/2 -bottom-2 w-3 h-3 bg-indigo-700 rotate-45 -translate-x-1/2"></div>
+  </div>
+</div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-3">
-        <div class="container text-center">
-            <p>&copy; 2023 Cricket Info Site. For more details, contact your local cricket association.</p>
-        </div>
-    </footer>
+  <!-- Achievements Section -->
+  <section id="achievements" class="py-16 text-center bg-gray-100">
+    <h3 class="text-3xl font-bold text-blue-700 mb-6">🏆 Achievements</h3>
+    <p class="max-w-2xl mx-auto text-lg">
+      The SUSL Cricket Team has achieved remarkable success in inter-university tournaments, 
+      winning several championships and producing talented players who represent at national level.
+    </p>
+  </section>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Coaches/Captain Section -->
+  <section id="coaches" class="py-16 text-center bg-white">
+    <h3 class="text-3xl font-bold text-blue-700 mb-6">👨‍🏫 Coaches/Captains</h3>
+    <p class="max-w-2xl mx-auto text-lg">
+      Our team is guided by experienced and dedicated coaches who focus on skill development, fitness, and teamwork. 
+      Their leadership and expertise help the players achieve excellence both on and off the field.
+    </p>
+  </section>
+
+  <!-- Registration Section -->
+  <section id="registration" class="py-16 text-center bg-gray-100">
+    <h3 class="text-3xl font-bold text-blue-700 mb-6">📝 Registration</h3>
+    <p class="max-w-2xl mx-auto text-lg mb-4">
+      Want to join the Sabaragamuwa University Cricket Team? Fill out the registration form to become part of our growing sports community.
+    </p>
+    <button class="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition">
+      Register Now
+    </button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-300 py-4 text-center">
+    <p>&copy; 2025 Sabaragamuwa University Sports Management System. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>

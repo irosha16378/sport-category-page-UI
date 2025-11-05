@@ -1,11 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elle</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SUSL Sports Management System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Elle</h1>
+<body class="bg-gray-50 text-gray-800 font-sans scroll-smooth">
+
+  <!-- Navbar -->
+  <header class="bg-blue-600 text-white py-4 shadow fixed w-full top-0 z-10">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">SUSL Sports Management System</h1>
+      <nav class="space-x-4">
+        <a href="#introduction" class="hover:underline">Introduction</a>
+        <a href="#achievements" class="hover:underline">Achievements</a>
+        <a href="#coaches" class="hover:underline">Coaches/Captains</a>
+        <a href="#registration" class="hover:underline">Registration</a>
+      </nav>
+    </div>
+  </header>
+
+   <!-- Hero Section -->
+<section 
+  id="introduction"
+  class="relative text-center py-24 h-screen mt-16 bg-cover bg-center bg-no-repeat text-white"
+  style="background-image: url('images/elleteam.jpg');"
+>
+  <!-- Gradient + Overlay -->
+  <div class="absolute inset-0 bg-gradient-to-b from-blue-800/10 via-indigo-800/30 to-black/70"></div>
+
+  <!-- Content -->
+  <div class="relative z-10 max-w-3xl mx-auto px-4">
+    <h2 class="text-4xl font-bold mb-4 text-gray-800">🥎 Sabaragamuwa University Elle Team</h2>
+
+    <p class="max-w-2xl mx-auto text-lg leading-relaxed">
+      The Sabaragamuwa University Elle Team is one of the most spirited and skillful university sports teams in Sri Lanka.
+      The team proudly represents the university in inter-university Elle tournaments and other national-level competitions. <br><br>
+      It is renowned for its teamwork, determination, and sportsmanship. Players train consistently to enhance their batting, throwing, and fielding techniques — key elements of the traditional game of Elle. Over the years, the team has demonstrated remarkable growth and continues to bring honor to the university through their dedication, unity, and outstanding performances both on and off the field.
+    </p>
+  <div class="relative inline-block group">
+  <!-- Button -->
+  <button
+    class="mt-8 bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-blue-50 transition-all duration-300 shadow-md hover:scale-105 transition-transform duration-300"
+  >
+    Follow us on Facebook
+  </button>
+
+  <!-- Popup (appears on hover) -->
+  <div
+    class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:block bg-gradient-to-r from-blue-300 to-indigo-500 text-white text-sm px-4 py-2 rounded-xl shadow-lg whitespace-nowrap"
+  >
+    📣 Visit our official Facebook page!
+    <div class="absolute left-1/2 -bottom-2 w-3 h-3 bg-indigo-700 rotate-45 -translate-x-1/2"></div>
+  </div>
+</div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="py-16 text-center bg-gray-100">
+    <h3 class="text-3xl font-bold text-blue-700 mb-6">🏆 Achievements</h3>
+    <p class="max-w-2xl mx-auto text-lg">
+      The SUSL Cricket Team has achieved remarkable success in inter-university tournaments, 
+      winning several championships and producing talented players who represent at national level.
+    </p>
+  </section>
+
+  <!-- Coaches/Captain Section -->
+  <section id="coaches" class="py-16 text-center bg-white">
+    <h3 class="text-3xl font-bold text-blue-700 mb-6">👨‍🏫 Coaches/Captains</h3>
+    <p class="max-w-2xl mx-auto text-lg">
+      Our team is guided by experienced and dedicated coaches who focus on skill development, fitness, and teamwork. 
+      Their leadership and expertise help the players achieve excellence both on and off the field.
+    </p>
+  </section>
+
+  <!-- Registration Section -->
+  <section id="registration" class="py-16 text-center bg-gray-100">
+    <h3 class="text-3xl font-bold text-blue-700 mb-6">📝 Registration</h3>
+    <p class="max-w-2xl mx-auto text-lg mb-4">
+      Want to join the Sabaragamuwa University Cricket Team? Fill out the registration form to become part of our growing sports community.
+    </p>
+    <button class="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition">
+      Register Now
+    </button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-300 py-4 text-center">
+    <p>&copy; 2025 Sabaragamuwa University Sports Management System. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>

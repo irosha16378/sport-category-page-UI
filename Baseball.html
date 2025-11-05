@@ -21,25 +21,43 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section 
+ <!-- Hero Section -->
+<section 
   id="introduction"
-     class="relative text-center text-white py-24 h-screen  mt-16  bg-center bg-cover bg-no-repeat contrast-120"
-      style="background-image: url('images/baseballteam.jpg');"
-  >
-  <div class="absolute inset-0 bg-black/30"></div>
+  class="relative text-center py-24 h-screen mt-16 bg-cover bg-center bg-no-repeat text-white"
+  style="background-image: url('images/baseballteam.jpg');"
+>
+  <!-- Gradient + Overlay -->
+  <div class="absolute inset-0 bg-gradient-to-b from-blue-800/10 via-indigo-800/30 to-black/70"></div>
 
-    <h2 class="text-4xl font-bold mb-4 ">🏏 Sabaragamuwa University Baseball Team</h2>
+  <!-- Content -->
+  <div class="relative z-10 max-w-3xl mx-auto px-4">
+    <h2 class="text-4xl font-bold mb-4 text-gray-800">⚾ Sabaragamuwa University Baseball Team</h2>
+
     <p class="max-w-2xl mx-auto text-lg leading-relaxed">
-      The Sabaragamuwa University Baseball Team is one of the most dynamic and passionate university sports teams in Sri Lanka.
+     The Sabaragamuwa University Baseball Team is one of the most dynamic and passionate university sports teams in Sri Lanka.
       The team proudly represents the university in inter-university championships and national-level baseball tournaments. <br><br>
       Renowned for its teamwork, discipline, and competitive spirit, the players train intensively to enhance their pitching, batting, and fielding abilities.
       Over the years, the team has demonstrated remarkable growth and determination, bringing recognition and pride to the university through their outstanding performances both on and off the field.
     </p>
-    <button class="mt-6 bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition">
-      Follow us on Facebook
-    </button>
-  </section>
+  <div class="relative inline-block group">
+  <!-- Button -->
+  <button
+    class="mt-8 bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-blue-50 transition-all duration-300 shadow-md hover:scale-105 transition-transform duration-300"
+  >
+    Follow us on Facebook
+  </button>
+
+  <!-- Popup (appears on hover) -->
+  <div
+    class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:block bg-gradient-to-r from-blue-300 to-indigo-500 text-white text-sm px-4 py-2 rounded-xl shadow-lg whitespace-nowrap"
+  >
+    📣 Visit our official Facebook page!
+    <div class="absolute left-1/2 -bottom-2 w-3 h-3 bg-indigo-700 rotate-45 -translate-x-1/2"></div>
+  </div>
+</div>
+</section>
+
 
   <!-- Achievements Section -->
   <section id="achievements" class="py-16 text-center bg-gray-100">
