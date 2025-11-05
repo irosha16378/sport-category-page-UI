@@ -9,17 +9,29 @@
 <body class="bg-gray-50 text-gray-800 font-sans scroll-smooth">
 
   <!-- Navbar -->
-  <header class="bg-blue-600 text-white py-4 shadow fixed w-full top-0 z-10">
-    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold">SUSL Sports Management System</h1>
-      <nav class="space-x-4">
-        <a href="#introduction" class="hover:underline">Introduction</a>
-        <a href="#achievements" class="hover:underline">Achievements</a>
-        <a href="#coaches" class="hover:underline">Coaches/Captains</a>
-        <a href="#registration" class="hover:underline">Registration</a>
-      </nav>
+<header class="bg-[#3e6991] text-white py-4 shadow fixed w-full top-0 z-50">
+  <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+    
+    <!-- Logo + Text Section -->
+    <div class="flex items-center space-x-3">
+      <!-- Logo Image -->
+      <img src="images/susl-logo.png" alt="SUSL Logo" class="w-12 h-12 rounded-full bg-white p-1" />
+      <div>
+        <h1 class="text-lg font-bold leading-tight">Sports Club</h1>
+        <p class="text-sm text-gray-200 -mt-1">Sabaragamuwa University of Sri Lanka</p>
+      </div>
     </div>
-  </header>
+
+    <!-- Navigation Links -->
+    <nav class="space-x-4">
+      <a href="#introduction" class="hover:underline transition duration-300">Introduction</a>
+      <a href="#achievements" class="hover:underline transition duration-300">Achievements</a>
+      <a href="#coaches" class="hover:underline transition duration-300">Coaches/Captains</a>
+      <a href="#registration" class="hover:underline transition duration-300">Registration</a>
+    </nav>
+
+  </div>
+</header>
 
  <!-- Hero Section -->
 <section 
@@ -60,33 +72,47 @@
 
 
   <!-- Achievements Section -->
-  <section id="achievements" class="py-16 text-center bg-gray-100">
-    <h3 class="text-3xl font-bold text-blue-700 mb-6">🏆 Achievements</h3>
-    <p class="max-w-2xl mx-auto text-lg">
-      The SUSL Baseball Team has achieved remarkable success in inter-university tournaments, 
-      winning several championships and producing talented players who represent at national level.
-    </p>
-  </section>
+<section id="achievements" class="py-16 bg-gray-100">
+  <div class="max-w-1xl mx-auto text-center px-6">
+    <div class="bg-white rounded-2xl shadow-lg border border-gray-200 p-10">
+      <h3 class="text-3xl font-bold text-blue-700 mb-6">🏆 Achievements</h3>
+      <p class="max-w-2xl mx-auto text-lg text-gray-700">
+        The SUSL Cricket Team has achieved remarkable success in inter-university tournaments, 
+        winning several championships and producing talented players who represent at national level.
+      </p>
+    </div>
+  </div>
+</section>
 
-  <!-- Coaches/Captain Section -->
-  <section id="coaches" class="py-16 text-center bg-white">
-    <h3 class="text-3xl font-bold text-blue-700 mb-6">👨‍🏫 Coaches/Captains</h3>
-    <p class="max-w-2xl mx-auto text-lg">
-      Our team is guided by experienced and dedicated coaches who focus on skill development, fitness, and teamwork. 
-      Their leadership and expertise help the players achieve excellence both on and off the field.
-    </p>
-  </section>
+<!-- Coaches/Captains Section -->
+<section id="coaches" class="py-16 bg-gray-50">
+  <div class="max-w-1xl mx-auto text-center px-6">
+    <div class="bg-white rounded-2xl shadow-lg border border-gray-200 p-10">
+      <h3 class="text-3xl font-bold text-blue-700 mb-6">👨‍🏫 Coaches/Captains</h3>
+      <p class="max-w-2xl mx-auto text-lg text-gray-700">
+        Our team is guided by experienced and dedicated coaches who focus on skill development, fitness, and teamwork. 
+        Their leadership and expertise help the players achieve excellence both on and off the field.
+      </p>
+    </div>
+  </div>
+</section>
 
-  <!-- Registration Section -->
-  <section id="registration" class="py-16 text-center bg-gray-100">
-    <h3 class="text-3xl font-bold text-blue-700 mb-6">📝 Registration</h3>
-    <p class="max-w-2xl mx-auto text-lg mb-4">
-      Want to join the Sabaragamuwa University Baseball Team? Fill out the registration form to become part of our growing sports community.
-    </p>
-    <button class="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition">
-      Register Now
-    </button>
-  </section>
+<!-- Registration Section -->
+<section id="registration" class="py-16 bg-gray-100">
+  <div class="max-w-1xl mx-auto text-center px-6">
+    <div class="bg-white rounded-2xl shadow-lg border border-gray-200 p-10">
+      <h3 class="text-3xl font-bold text-blue-700 mb-6">📝 Registration</h3>
+      <p class="max-w-2xl mx-auto text-lg text-gray-700 mb-6">
+        Want to join the Sabaragamuwa University Cricket Team? Fill out the registration form to become part of our growing sports community.
+      </p>
+      <a href="Register.html">
+        <button class="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition">
+          Register Now
+        </button>
+      </a>
+    </div>
+  </div>
+</section>
 
   <!-- Footer -->
   <footer class="bg-gray-800 text-gray-300 py-4 text-center">
